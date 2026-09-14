@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		1513F1BE303B621B009C3491 /* GuitarTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1522B3C530523D1B00DAE1DE /* POLYTUNE Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POLYTUNE Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15743B6430571BC300F76AEF /* POLYTUNE ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POLYTUNE ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1513F1C0303B621B009C3491 /* GuitarTuner */ = {
+		1513F1C0303B621B009C3491 /* POLYTUNE ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GuitarTuner;
+			path = "POLYTUNE ios";
+			sourceTree = "<group>";
+		};
+		1522B3C930523D1B00DAE1DE /* POLYTUNE Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "POLYTUNE Watch App";
+			sourceTree = "<group>";
+		};
+		15743B6530571BC300F76AEF /* POLYTUNE ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "POLYTUNE ios";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1513F1BB303B621B009C3491 /* Frameworks */ = {
+		1522B3C230523D1B00DAE1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15743B6130571BC300F76AEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,7 +50,9 @@
 		1513F1B5303B621B009C3491 = {
 			isa = PBXGroup;
 			children = (
-				1513F1C0303B621B009C3491 /* GuitarTuner */,
+				1513F1C0303B621B009C3491 /* POLYTUNE ios */,
+				1522B3C930523D1B00DAE1DE /* POLYTUNE Watch App */,
+				15743B6530571BC300F76AEF /* POLYTUNE ios */,
 				1513F1BF303B621B009C3491 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +60,8 @@
 		1513F1BF303B621B009C3491 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1513F1BE303B621B009C3491 /* GuitarTuner.app */,
+				1522B3C530523D1B00DAE1DE /* POLYTUNE Watch App.app */,
+				15743B6430571BC300F76AEF /* POLYTUNE ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,26 +69,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1513F1BD303B621B009C3491 /* GuitarTuner */ = {
+		1522B3C430523D1B00DAE1DE /* POLYTUNE Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1513F1C9303B621C009C3491 /* Build configuration list for PBXNativeTarget "GuitarTuner" */;
+			buildConfigurationList = 1522B3D530523D1B00DAE1DE /* Build configuration list for PBXNativeTarget "POLYTUNE Watch App" */;
 			buildPhases = (
-				1513F1BA303B621B009C3491 /* Sources */,
-				1513F1BB303B621B009C3491 /* Frameworks */,
-				1513F1BC303B621B009C3491 /* Resources */,
+				1522B3C130523D1B00DAE1DE /* Sources */,
+				1522B3C230523D1B00DAE1DE /* Frameworks */,
+				1522B3C330523D1B00DAE1DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1513F1C0303B621B009C3491 /* GuitarTuner */,
+				1522B3C930523D1B00DAE1DE /* POLYTUNE Watch App */,
 			);
-			name = GuitarTuner;
+			name = "POLYTUNE Watch App";
 			packageProductDependencies = (
 			);
-			productName = GuitarTuner;
-			productReference = 1513F1BE303B621B009C3491 /* GuitarTuner.app */;
+			productName = "POLYTUNE Watch App";
+			productReference = 1522B3C530523D1B00DAE1DE /* POLYTUNE Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15743B6330571BC300F76AEF /* POLYTUNE ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15743B6C30571BC400F76AEF /* Build configuration list for PBXNativeTarget "POLYTUNE ios" */;
+			buildPhases = (
+				15743B6030571BC300F76AEF /* Sources */,
+				15743B6130571BC300F76AEF /* Frameworks */,
+				15743B6230571BC300F76AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				15743B6530571BC300F76AEF /* POLYTUNE ios */,
+			);
+			name = "POLYTUNE ios";
+			packageProductDependencies = (
+			);
+			productName = "POLYTUNE ios";
+			productReference = 15743B6430571BC300F76AEF /* POLYTUNE ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -80,12 +123,15 @@
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					1513F1BD303B621B009C3491 = {
+					1522B3C430523D1B00DAE1DE = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					15743B6330571BC300F76AEF = {
 						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
-			buildConfigurationList = 1513F1B9303B621B009C3491 /* Build configuration list for PBXProject "GuitarTuner" */;
+			buildConfigurationList = 1513F1B9303B621B009C3491 /* Build configuration list for PBXProject "POLYTUNE" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,13 +145,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1513F1BD303B621B009C3491 /* GuitarTuner */,
+				1522B3C430523D1B00DAE1DE /* POLYTUNE Watch App */,
+				15743B6330571BC300F76AEF /* POLYTUNE ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1513F1BC303B621B009C3491 /* Resources */ = {
+		1522B3C330523D1B00DAE1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15743B6230571BC300F76AEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +169,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1513F1BA303B621B009C3491 /* Sources */ = {
+		1522B3C130523D1B00DAE1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15743B6030571BC300F76AEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -236,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -246,7 +307,7 @@
 			};
 			name = Release;
 		};
-		1513F1CA303B621C009C3491 /* Debug */ = {
+		1522B3D330523D1B00DAE1DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -256,17 +317,87 @@
 				DEVELOPMENT_TEAM = 6428KU5U7J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_CFBundleDisplayName = POLYTUNE;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "NEED ACCESS TO MIC";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dom.GuitarTuner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.POLYTUNE.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
+			};
+			name = Debug;
+		};
+		1522B3D430523D1B00DAE1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6428KU5U7J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = POLYTUNE;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "NEED ACCESS TO MIC";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.POLYTUNE.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
+			};
+			name = Release;
+		};
+		15743B6D30571BC400F76AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6428KU5U7J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "POLYTUNE NEEDS MIC";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dom.POLYTUNE-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -278,7 +409,7 @@
 			};
 			name = Debug;
 		};
-		1513F1CB303B621C009C3491 /* Release */ = {
+		15743B6E30571BC400F76AEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,17 +419,19 @@
 				DEVELOPMENT_TEAM = 6428KU5U7J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "POLYTUNE NEEDS MIC";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dom.GuitarTuner;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dom.POLYTUNE-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -313,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1513F1B9303B621B009C3491 /* Build configuration list for PBXProject "GuitarTuner" */ = {
+		1513F1B9303B621B009C3491 /* Build configuration list for PBXProject "POLYTUNE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1513F1C7303B621C009C3491 /* Debug */,
@@ -322,11 +455,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1513F1C9303B621C009C3491 /* Build configuration list for PBXNativeTarget "GuitarTuner" */ = {
+		1522B3D530523D1B00DAE1DE /* Build configuration list for PBXNativeTarget "POLYTUNE Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1513F1CA303B621C009C3491 /* Debug */,
-				1513F1CB303B621C009C3491 /* Release */,
+				1522B3D330523D1B00DAE1DE /* Debug */,
+				1522B3D430523D1B00DAE1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15743B6C30571BC400F76AEF /* Build configuration list for PBXNativeTarget "POLYTUNE ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15743B6D30571BC400F76AEF /* Debug */,
+				15743B6E30571BC400F76AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
