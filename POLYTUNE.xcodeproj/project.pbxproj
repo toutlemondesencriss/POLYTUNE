@@ -22,11 +22,6 @@
 			path = "POLYTUNE Watch App";
 			sourceTree = "<group>";
 		};
-		15743B6530571BC300F76AEF /* POLYTUNE ios */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "POLYTUNE ios";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +47,6 @@
 			children = (
 				1513F1C0303B621B009C3491 /* POLYTUNE ios */,
 				1522B3C930523D1B00DAE1DE /* POLYTUNE Watch App */,
-				15743B6530571BC300F76AEF /* POLYTUNE ios */,
 				1513F1BF303B621B009C3491 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,9 +96,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				15743B6530571BC300F76AEF /* POLYTUNE ios */,
 			);
 			name = "POLYTUNE ios";
 			packageProductDependencies = (
